@@ -1,0 +1,3 @@
+displayName = Pokemod
+author = ninou
+version = 0.1
