@@ -1,31 +1,17 @@
-# Pokémon Mod for Terraria
+# Pokemon Mod for Terraria (In Development)
 
-This project is a mod for the game Terraria that adds Pokemon-themed content. The mod includes new items, NPCs, and mechanics related to capturing and battling Pokemon.
-
-## Installation
-
-To install the mod, you will need to have the [Terraria mod loader](https://tmodloader.net/) installed. Once you have the mod loader, download the latest version of the mod from the [releases page](https://github.com/yourusername/pokemon-mod/releases) and place the mod file in your Terraria mod folder.
+This repository contains the source code for my first Terraria mod, which is currently under development and not yet complete. The mod aims to bring some of the mechanics from the Pokémon franchise into the world of Terraria, such as capturing and battling creatures with pokeballs.
 
 ## Features
 
 - New Pokeball item that allows players to capture wild Pokemon
 - Pokemon NPCs that can be battled and caught
 - A new battle system that allows players to battle with their caught Pokemon
-- Various new items related to Pokemon, such as TMs and evolution stones
-
-## Usage
-
-Once the mod is installed, players can access the new content by starting a new world or loading an existing one. The new items and NPCs will spawn naturally as the player progresses through the game. Players can catch Pokemon by using the new Pokeball item on wild Pokemon, and can battle other trainers and Gym Leaders to earn badges and progress through the game.
 
 ## Contributing
 
-Contributions are welcome! If you have any bug reports, feature requests, or code improvements, feel free to open an issue or submit a pull request on the project's [GitHub page](https://github.com/yourusername/pokemon-mod).
+As this is my first mod, any feedback or suggestions are greatly appreciated. 
 
-## Credits
+## Disclaimer
 
-This mod was created by [your name or username] with the help of the following resources:
-
-- [Terraria mod loader](https://tmodloader.net/)
-- [Pokemon Essentials](https://essentialsdocs.fandom.com/wiki/Pok%C3%A9mon_Essentials_Wiki)
-- [PokeAPI](https://pokeapi.co/)
-- [Pokemon Sprites Resource](https://www.pkparaiso.com/xy/sprites_pokemon.php)
+Please note that this mod is still a work in progress and may contain bugs, incomplete features, or other issues. Use it at your own risk, and keep in mind that it is not yet polished or fully tested.
