@@ -8,6 +8,8 @@ This repository contains the source code for my first Terraria mod, which is cur
 - Pokemon NPCs that can be battled and caught
 - A new battle system that allows players to battle with their caught Pokemon
 
+![Pokeball](demoThrowPoke.gif)
+
 ## Contributing
 
 As this is my first mod, any feedback or suggestions are greatly appreciated. 
