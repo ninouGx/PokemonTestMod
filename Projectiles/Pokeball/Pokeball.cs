@@ -87,10 +87,10 @@ namespace PokemonMod.Projectiles.Pokeball
 
         public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
         {
+            Projectile.damage = 0;
             if (!hasHit)
             {
                 hasHit = true;
-                Projectile.damage = 0;
 
                 Projectile.velocity.Y = -6f;
                 //Projectile.velocity.X *= 0.75f;
@@ -109,7 +109,24 @@ namespace PokemonMod.Projectiles.Pokeball
 
         public override bool OnTileCollide(Vector2 oldVelocity)
         {
-            OnHitNPC(null, 0, 0f, false);
+            if (!hasHit)
+            {
+                hasHit = true;
+
+                Projectile.velocity.Y = -6f;
+                //Projectile.velocity.X *= 0.75f;
+                Projectile.ai[0] = 0f;
+                Projectile.netUpdate = true;
+
+                if (Projectile.frame == 0)
+                {
+
+                }
+
+                Projectile.frame = 1;
+                Projectile.timeLeft = 60;
+            }
+
             return false;
         }
     }

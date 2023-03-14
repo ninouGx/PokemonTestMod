@@ -1,0 +1,13 @@
+
+Mods: {
+	PokemonMod: {
+		Items: {
+			ThePokeball: {
+				DisplayName: The Pokeball
+				Tooltip: Hold down the mouse button to adjust the throw distance and trajectory.
+			}
+		}
+
+		Projectiles.Pokeball.DisplayName: Pokeball
+	}
+}
