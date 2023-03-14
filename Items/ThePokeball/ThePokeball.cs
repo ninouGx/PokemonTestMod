@@ -50,7 +50,7 @@ namespace PokemonMod.Items.ThePokeball
             if (player.controlUseItem)
             {
                 Item.damage = 0;
-                Main.NewText("Charge time: " + chargeTime + " / " + maxChargeTime);
+                //Main.NewText("Charge time: " + chargeTime + " / " + maxChargeTime);
                 chargeTime++;
                 if (chargeTime > maxChargeTime)
                 {
